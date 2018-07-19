@@ -24,6 +24,6 @@ def reverse_each_word(string)
     word.collect do |letter|
     empty << "#{letter}".reverse
   end
- empty.join(" ")
+ return empty.join(" ")
 end
 end
