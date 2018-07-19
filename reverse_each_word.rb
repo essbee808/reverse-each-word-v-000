@@ -23,6 +23,7 @@ def reverse_each_word(string)
   array.collect do |word|
     word.collect do |letter|
     "#{letter}".reverse
+    empty.join(" ")
   end
 end
 end
