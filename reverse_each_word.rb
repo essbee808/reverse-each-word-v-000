@@ -24,3 +24,4 @@ def reverse_each_word(string)
     "#{letter}".reverse
   end
 end
+end
