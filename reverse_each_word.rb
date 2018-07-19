@@ -17,4 +17,5 @@ end
 end
   
   array2 << string.split
+  array2
 end
