@@ -9,7 +9,7 @@ def reverse_each_word(string)
   array << string.split
   
   array.each do |item| #=> array
-    array2 << "#{item}"
+    array2 << "#{item}".reverse
     return array2
   end
 
