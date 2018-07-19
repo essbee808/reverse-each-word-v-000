@@ -10,6 +10,6 @@ def reverse_each_word(string)
     item.each do |letter, index|
       letter = empty[index]
     end
-    empty
+    
   end
 end
