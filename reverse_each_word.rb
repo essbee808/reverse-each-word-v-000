@@ -7,5 +7,5 @@ def reverse_each_word(string)
   array << string.split
   
   #=> reverse each element within the array
-  array.each_with_index{|item, index| return "#{item}"}
+  array.each_with_index{|item, index| array2 << "#{item}"}
 end
