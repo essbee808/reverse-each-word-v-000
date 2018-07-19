@@ -23,12 +23,3 @@ end
   return empty2.join(" ")
 end
 
-def reverse_each_word(string)
-  array = []
-  empty = []
-  array << string.split
-  array.collect{|word|}
-    word.collect{|letter|}
-    empty << "#{letter}".reverse
- return empty.join(" ")
-end
