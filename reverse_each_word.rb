@@ -9,5 +9,4 @@ def reverse_each_word(string)
   array.each_with_index do |item, index|
     array[index] = item
   end
-  item
 end
