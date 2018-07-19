@@ -20,6 +20,7 @@ def reverse_each_word(string)
   array2 = []
   array2 << string.split
   array2.collect do |word|
-    array2 "#{word}".reverse
+    array2 << "#{word}".reverse
   end
+  return array2
 end
