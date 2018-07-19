@@ -11,4 +11,5 @@ def reverse_each_word(string)
     item.each do |letter| {
       puts "#{letter}".reverse
     }
+  end
 end
