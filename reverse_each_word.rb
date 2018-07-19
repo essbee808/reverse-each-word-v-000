@@ -2,7 +2,7 @@ string = " " #=string
 
 def reverse_each_word(string)
   array =[]
-  array2 = []
+ 
   empty = []
   
   #=> convert string to an array
@@ -17,6 +17,7 @@ end
 end
 
 def reverse_each_word(string)
+  array2 = []
   array2 << string.split
   array2.collect do |word|
     puts "#{word}".reverse
