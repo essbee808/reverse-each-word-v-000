@@ -8,7 +8,7 @@ def reverse_each_word(string)
   array << string.split
   array.each do |item| #=> array
     item.each_with_index do |letter, index|
-      return empty << "#{letter}".reverse
+      return empty.push("#{letter}".reverse)
     end
     empty
   end
