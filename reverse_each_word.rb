@@ -14,12 +14,5 @@ def reverse_each_word(string)
 end
   return empty.join(" ")
   
-  array2 = []
-  empty2 = []
-  
-  array2.collect{|word|}
-    word.collect{|letter|}
-    empty2 << "#{letter}".reverse
-  return empty2.join(" ")
 end
 
