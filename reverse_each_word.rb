@@ -10,7 +10,7 @@ def reverse_each_word(string)
   
   array.each do |item| #=> array
     item.each do |letter|
-      letter.reverse
+      letter =letter.reverse
   end
 
 end
