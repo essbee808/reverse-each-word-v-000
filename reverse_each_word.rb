@@ -11,6 +11,7 @@ def reverse_each_word(string)
   array.each do |word| #=> array
     word.each do |letter|
       empty << "#{letter}".reverse
+      empty = 
   end
 end
   return empty
