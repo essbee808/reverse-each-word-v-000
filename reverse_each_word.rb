@@ -12,7 +12,7 @@ def reverse_each_word(string)
     puts item
   end
   item.each do |letter, index|
-      puts 
+    puts letter
     end
     
   end
