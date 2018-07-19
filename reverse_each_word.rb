@@ -7,5 +7,5 @@ def reverse_each_word(string)
   #=> convert string to an array
   array << string.split
   
-  end
+ 
 end
