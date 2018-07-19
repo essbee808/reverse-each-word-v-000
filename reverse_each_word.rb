@@ -19,4 +19,5 @@ end
   array2 << string.split
   array2.collect do |word|
     puts "#{word}".reverse
+  end
 end
