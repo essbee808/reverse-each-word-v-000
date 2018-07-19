@@ -16,5 +16,5 @@ end
   return empty.join(" ")
 end
   
-  arraystring.split
+  array << string.split
 end
