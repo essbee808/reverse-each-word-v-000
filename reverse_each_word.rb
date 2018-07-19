@@ -9,7 +9,7 @@ def reverse_each_word(string)
   #=> reverse each element within the array
   array.each_with_index{|item, index|}
     item.each do |letter| {
-      puts "#{letter}".reverse
+      "#{letter}".reverse
     }
   end
 end
