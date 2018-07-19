@@ -14,6 +14,6 @@ def reverse_each_word(string)
   end
   item.each do |letter, index|
     empty << "#{letter}"
-    
+    return empty
   end
 end
