@@ -18,10 +18,11 @@ end
 
 def reverse_each_word(string)
   array = []
+  empty = []
   array << string.split
   array.collect do |word|
     word.collect do |letter|
-    array << "#{letter}".reverse
+    "#{letter}".reverse
   end
 end
 end
