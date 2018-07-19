@@ -12,8 +12,5 @@ def reverse_each_word(string)
     array2 << "#{item}"
     return array2
   end
-  item.each do |letter, index|
-    empty << "#{letter}"
-    return empty
-  end
+
 end
