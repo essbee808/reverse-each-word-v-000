@@ -19,6 +19,7 @@ end
   
   array2.collect{|word|}
     word.collect{|letter|}
+    empty << "#{letter}"
 end
 
 def reverse_each_word(string)
