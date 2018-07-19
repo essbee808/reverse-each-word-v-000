@@ -9,4 +9,5 @@ def reverse_each_word(string)
   array.each do |item|
     item = array[item]
   end
+  item
 end
