@@ -6,7 +6,6 @@ def reverse_each_word(string)
   empty = []
   #=> convert string to an array
   array << string.split
-  array.each{|word|}
-  word.each{|letter| puts empty << letter.reverse}
+  array.each
   
 end
