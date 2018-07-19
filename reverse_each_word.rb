@@ -21,7 +21,7 @@ def reverse_each_word(string)
   empty = []
   array << string.split
   array.collect{|word|}
-    word.collect do |letter|
+    word.collect{|letter|}
     empty << "#{letter}".reverse
   end
  return empty.join(" ")
