@@ -13,6 +13,5 @@ def reverse_each_word(string)
   end
 end
   return empty.join(" ")
-  
 end
 
