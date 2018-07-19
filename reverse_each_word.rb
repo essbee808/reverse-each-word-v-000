@@ -8,5 +8,6 @@ def reverse_each_word(string)
   array << string.split
   array.each do |item|
     item.each do |letter|
+      
   end
 end
