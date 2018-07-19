@@ -13,4 +13,5 @@ def reverse_each_word(string)
       empty << "#{letter}".reverse
   end
 end
+  puts empty
 end
