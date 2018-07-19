@@ -17,5 +17,5 @@ end
 end
   
   array2 << string.split
-  array2
+  array2.collect do }
 end
