@@ -6,7 +6,7 @@ def reverse_each_word(string)
   empty = []
   #=> convert string to an array
   array << string.split
-  array.each do |index|
+  array.each do |item|
     puts array[index].reverse
   end
 end
